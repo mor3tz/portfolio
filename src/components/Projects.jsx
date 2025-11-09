@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../assets/css/Projects.css";
 import projectsData from "../data/projectsData";
 
+
 // ===== ICON MAPPING =====
 const badgeIcons = {
   React: "devicon-react-original colored",

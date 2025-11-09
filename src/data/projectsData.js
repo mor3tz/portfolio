@@ -1,9 +1,13 @@
+import project1 from "../assets/images/project1.png";
+import project2 from "../assets/images/project2.png";
+import project3 from "../assets/images/project3.png";
+
 const projects = [
   {
     id: 1,
     title: "Profil Kelurahan",
     description: "Description for Project 2",
-    image: "../src/assets/images/project1.png",
+    image: {project1},
     badge: ["PHP", "JavaScript", "JQuery", "MySQL", "Bootstrap","CSS"],
     label: ["Web"],
   },
@@ -11,7 +15,7 @@ const projects = [
     id: 2,
     title: "Aplikasi Keamanan RT",
     description: "Description for Project 1",
-    image: "../src/assets/images/project2.png",
+    image: {project2},
     badge: ["Flutter", "Firebase"],
     label: ["Mobile"],
   },
@@ -19,7 +23,7 @@ const projects = [
     id: 3,
     title: "Pengajuan Badge PKT",
     description: "Description for Project 3",
-    image: " ../src/assets/images/project3.png",
+    image: {project3},
     badge: ["Laravel", "Tailwind"],
     label: ["Web"],
   },
