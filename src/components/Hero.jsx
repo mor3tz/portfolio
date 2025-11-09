@@ -1,4 +1,5 @@
 import "../assets/css/Hero.css";
+import heroImage from "../assets/images/women.jpg";
 
 export default function Hero() {
   return (
@@ -45,7 +46,7 @@ export default function Hero() {
 
         {/* Right Side Image */}
         <div className="hero-image">
-          <img src="/src/assets/images/women.jpg" alt="Hero Image" />
+          <img src={heroImage} alt="Hero Image"></img>
           <div className="hero-description">
             <h5>Muhammad Zainal Ilmi</h5>
             <p>Follow me here👋</p>

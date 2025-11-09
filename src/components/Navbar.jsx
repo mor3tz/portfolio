@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../assets/css/Navbar.css";
+import logo from "../assets/svg/batu.svg";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,9 +22,8 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <h1 className="logo">
-        {" "}
         <img
-          src="/src/assets/svg/batu.svg"
+          src={logo}
           alt="logo-img"
           className="logo-img"
         ></img>
