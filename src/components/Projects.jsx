@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "../assets/css/Projects.css";
 import projectsData from "../data/projectsData";
 
-
 // ===== ICON MAPPING =====
 const badgeIcons = {
   React: "devicon-react-original colored",
@@ -80,6 +79,9 @@ export default function Projects() {
           ))}
         </div>
       )}
+      <h4 className="more-projects">
+        And many more projects are soon to come 🙌
+      </h4>
     </section>
   );
 }

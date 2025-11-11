@@ -96,7 +96,7 @@ export default function Hero() {
                 <p className="stack">
                   <i className="devicon-react-original colored"></i>
                   <i className="devicon-laravel-plain colored"></i>
-                  <i className="devicon-jquery-plain colored"></i>
+                  <i className="devicon-express-original"></i>
                   <i className="devicon-nodejs-plain colored"></i>
                   <i className="devicon-mysql-plain colored"></i>
                   <i className="devicon-tailwindcss-plain colored"></i>
