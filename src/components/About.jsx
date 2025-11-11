@@ -1,4 +1,5 @@
 import React from "react";
+import aboutImage from "../assets/images/women.jpg";
 import "../assets/css/About.css";
 
 export default function About() {
@@ -7,7 +8,7 @@ export default function About() {
       <div className="about-container">
         {/* Left Side Image */}
         <div className="about-image">
-          <img src="/src/assets/images/women.jpg" alt="About Image"></img>
+          <img src={aboutImage} alt="About Image"></img>
         </div>
 
         {/* Right Side */}
