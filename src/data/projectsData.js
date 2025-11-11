@@ -6,15 +6,15 @@ const projectsData = [
   {
     id: 1,
     title: "Profil Kelurahan",
-    description: "Description for Project 2",
+    description: "Layanan informasi berbasis web untuk kelurahan",
     image: project1,
-    badge: ["PHP", "JavaScript", "JQuery", "MySQL", "Bootstrap","CSS"],
+    badge: ["PHP", "JavaScript", "JQuery", "MySQL", "Bootstrap", "CSS"],
     label: ["Web"],
   },
   {
     id: 2,
     title: "Aplikasi Keamanan RT",
-    description: "Description for Project 1",
+    description: "Aplikasi mobile untuk meningkatkan keamanan lingkungan RT",
     image: project2,
     badge: ["Flutter", "Firebase"],
     label: ["Mobile"],
@@ -22,7 +22,7 @@ const projectsData = [
   {
     id: 3,
     title: "Pengajuan Badge PKT",
-    description: "Description for Project 3",
+    description: "Sistem pengajuan badge secara online untuk tamu/vendor PKT",
     image: project3,
     badge: ["Laravel", "Tailwind"],
     label: ["Web"],

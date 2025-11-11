@@ -18,9 +18,9 @@
 
 /* LEFT SIDE */
 .about-image img {
-    width: 300px;
+    width: 350px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 50px 50px 50px 50px;
     box-shadow: 0 0 10px rgba(5, 157, 222, 0.5);
     transition: transform 0.3s ease;
 }
